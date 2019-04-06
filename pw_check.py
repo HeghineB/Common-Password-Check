@@ -10,7 +10,7 @@ def main(argv):
         print("ERROR: Too many arguments")
     else:
         # Valid Input
-        target = argv[0]
+        target = argv[1]
         fp = open('word_bank')
         lines = fp.read().splitlines() # list containing each line; strips EOL character
         fp.close()
